@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 header, footer {
     background-color: #1F2937;
@@ -87,7 +88,6 @@ header {
 .squares-container {
     display: flex;
     gap: 8px;
-    flex-wrap: wrap;
 }
 .square {
     width: 100px;
@@ -99,7 +99,6 @@ header {
     width: 120px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 .text {
     width: 100px;
@@ -160,6 +159,7 @@ a {
 }
 .text-container h4 {
     color: #F9FAF8;
+    font-size: 18px;
 }
 .text-container p {
     color: var(--secondary-font-color);
