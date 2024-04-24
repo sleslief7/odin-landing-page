@@ -6,9 +6,25 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 header, footer {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+header {
+    height: 300px;
+}
+footer {
+    height: 72px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 a {
     text-decoration: none;
